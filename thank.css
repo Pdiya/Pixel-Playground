@@ -1,0 +1,158 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 60px;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:1px 200px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('assets/img/t2.jpg') no-repeat center center/cover;
+    height: 100%;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    /* opacity:0.8; */
+}
+
+
+
+#home p{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    margin-top: 15%;
+}
+
+#home h1{
+  color:rgb(255, 255, 255);
+  text-align: center;
+  font-size: 6rem;
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  
+}
+#home h3{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    /* font-size: 6rem; */
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    
+  }
+
+#home img{
+   height: 100px;
+    margin-top: -200px;
+  }
+
+
+
+  /* Services Section */
+#services{
+    margin: 34px;
+    display: flex;
+    margin-top: -120px;
+    
+}
+
+#services .box{ 
+    /* border: 2px solid brown; */
+    padding: 34px;
+    margin: 2px 1px;
+    /* border-radius: 28px; */
+    /* background: #ffffff; */
+    margin-bottom: 20px;
+    font-family: 'Poiret One', cursive;
+    background-color: rgba(0, 0, 0, 0.428);
+    /* position: absolute; */
+    backdrop-filter: blur(2px);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 180px;
+}
+
+#services .box img{ 
+   height: 50px;
+   margin-left: 35px;
+   /* display: block; */
+}
+
+#services .box p{
+    font-family: 'Poiret One', cursive;
+    font-size: rem;
+    font-weight: bolder; 
+} 
+
+#services-container h1{
+    color: #ffffff;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.6rem;
+    font-weight: bolder; 
+    margin-top: 5%;
+}
+
+
+.shadow__btn {
+    background-color: rgb(29, 154, 35);
+    color: rgb(0, 0, 0); 
+    border: none; 
+    padding: 8px 20px; 
+    cursor: pointer; 
+    font-size: 25px; 
+    /* margin-left: 30%; */
+    margin-bottom: 10%;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+.shadow__btn:hover{
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+} 
+
+/* #home btn :hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+} */
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 2px;
+  letter-spacing: 4px;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+
+
+

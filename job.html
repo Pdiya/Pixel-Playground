@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Playground</title>
+    <link rel="icon" href="assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" media="all" type="text/css" href="job.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+
+    
+</head>
+
+  <form name="frm" method="post" action="http://localhost/job.php" autocomplete="off">
+<div class="container">
+  <div class="left">
+    <div class="header">
+      <h2 class="animation a1">Join our Team</h2>
+      <h4 class="animation a2" style="color:white">Fill all the fields and apply now</h4>
+    </div>
+    <div class="form">
+      <input required type="text" class="form-field animation a3" placeholder="Full Name"  name="name"  pattern="[A-Za-z]{3,}" title="Three or more characters"> 
+      <input required type="text" class="form-field animation a4" placeholder="Gender" name="gender" pattern="[A-Za-z]{4,}" title="Male Or Female">
+      <input required type="email" class="form-field animation a3" placeholder="Email Address" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" >
+      <input required  type="text" class="form-field animation a3" placeholder="Phone"  name="phone" pattern="[0-9]{10}" title="Ten Digits Only">
+      <input required  type="text" class="form-field animation a4" placeholder="Address"  name="address">
+      <input required  type="text" class="form-field animation a3" placeholder="City"  name="city" pattern="[A-Za-z]{3,}">
+      <input required  type="text" class="form-field animation a4" placeholder="Postal Code" name="code" pattern="[0-9]{6}" title="Six Digits Only"><br>
+      <!-- <label  class="mr-4" style="color:white; font-weight: 400;">Upload your CV:</label><br>
+        <input required type="file" name="file" class="btn"><br> -->
+
+      <!-- <input type="submit"style="font-size: 1.5rem; font-weight: 700;" name="send" value="Apply"> -->
+
+    </div>
+  </div>
+  <div class="right"></div>
+</div>
+<input type="submit"style="
+font-size: 1.5rem; 
+font-weight: 700;
+border: 0;
+padding: 10px 30px;
+background: linear-gradient(to right, #de48b5 0%,#0097ff 100%); 
+border-radius: 3px;
+margin-top: -100px;
+margin-left: 110px;
+position: absolute;
+z-index: 100;
+color: #fff;
+letter-spacing: 1px;
+font-family: 'Poiret One', cursive;" name="send" value="Apply">
+
+</form>
+  </body>
+  </html>
